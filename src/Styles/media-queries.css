@@ -1,0 +1,41 @@
+@media screen and (max-width: 425px) {
+  * {
+    overflow-y: visible;
+  }
+  .welcome {
+    display: flex;
+  }
+  .welcome h1 {
+    text-align: center;
+    font-size: 2.5em;
+  }
+  .question header {
+    padding-bottom: 5px;
+  }
+  .question h1 {
+    font-size: 1.7em;
+  }
+  .question .options {
+    grid-template-columns: none;
+    margin-top: 10px;
+  }
+  .question .options .option {
+    padding: 20px;
+  }
+  .question .attribution {
+    margin: 30px;
+  }
+  .finish {
+    display: none;
+  }
+  .active {
+    transform: none;
+    display: block;
+  }
+  .inactive {
+    display: none;
+  }
+  .finish.active {
+    display: grid;
+  }
+}/*# sourceMappingURL=media-queries.css.map */

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Styles/App.css";
+import "./Styles/media-queries.css";
 import Question from "./components/Question";
 import Welcome from "./components/Welcome";
 import FinishScreen from "./components/FinishScreen";
